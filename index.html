@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="desctiption" content="my-portforio">
+    <meta name="format-detection" content="telephone=no, email=no, address=no">
+    <meta name="theme-color" content="#0accc3">
+    <title>my-portforio</title>
+    <link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+    <script type="text/javascript" src="material/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./style.js"></script>
+  </head>
+
+  <body>
+    <header class="header" id="top">
+      <nav class="header__gnav" style="position: fixed; top: 0px;">
+        <div class="header__gnav__inner">
+          <div class="header__gnav__icon">
+            <a class="header__gnav__link" href="#top">
+              <i class="fas fa-home"></i> </a>
+          </div>
+          <ul class="header__gnav__menu">
+            <li>
+              <a class="header__gnav__link" href="#introduction">
+                <i class="far fa-check-square"></i>
+                INTRO
+              </a>
+            </li>
+            <li>
+              <a class="header__gnav__link" href="#profile">
+                <i class="far fa-id-card"></i>
+                PROFILE
+              </a>
+            </li>
+            <li>
+              <a class="header__gnav__link" href="#skill">
+                <i class="far fa-file-alt"></i>
+                SKILL
+              </a>
+            </li>
+            <li>
+              <a class="header__gnav__link" href="#works">
+                <i class="fas fa-folder-open"></i>
+                WORKS
+              </a>
+            </li>
+            <li>
+              <a class="header__gnav__link" href="#contact">
+                <i class="far fa-address-book"></i>
+                CONTACT
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__text">
+        <h1 class="header__text__title">
+          My-Portfolio
+        </h1>
+        <h2 class="header__text__subtitle">
+          Engineer
+        </h2>
+      </div>
+    </header>
+
+    <div class="main">
+      <section class="introduction email-pattern" id="introduction">
+        <div class="introduction__inner scrollAnimation slideUp" data-trigger="0.3">
+          <div class="introduction__title section-title">
+            <h2 class="introduction__title__text">
+              <i class="far fa-check-square"></i>
+              INTRODUCTION
+            </h2>
+          </div>
+          <p class="introduction__content">
+            初めまして、レンジと申します。<br>
+            当ページは、フロントエンドの学習も兼ねて作成したポートフォリオサイトです。<br>
+            私の成果物・スキルなどをまとめております。<br>
+            どうぞごゆっくりご覧ください。
+          </p>
+        </div>
+      </section>
+
+
+      <section class="profile blue-snow" id="profile">
+        <div class="profile__inner scrollAnimation scaleUp" data-trigger="1.3">
+          <div class="profile__title section-title section-title__with-padding">
+            <h2 class="profile__title__text">
+              <i class="far fa-id-card"></i>
+              PROFILE
+            </h2>
+          </div>
+          <div class="profile__content__wrapper">
+            <div class="profile__image">
+              <img src="material/penguin.png" alt="">
+            </div>
+            <div class="profile__table__wrapper">
+              <h3 class="profile__table__caption">自己紹介</h3>
+              <table class="profile__table">
+                <tr class="profile__table__row">
+                  <th class="profile__table__head">Name</th>
+                  <td class="profile__table__data">レンジ</td>
+                </tr>
+                <tr class="profile__table__row">
+                  <th class="profile__table__head">Age</th>
+                  <td class="profile__table__data">26</td>
+                </tr>
+                <tr class="profile__table__row">
+                  <th class="profile__table__head">趣味</th>
+                  <td class="profile__table__data">音楽ゲーム、動画鑑賞</td>
+                </tr>
+                <tr class="profile__table__row">
+                  <th class="profile__table__head">Github</th>
+                  <td class="profile__table__data"><a href="https://github.com/range-555" target="_blank"
+                      rel="noopener noreferrer">range-555</a>
+                  </td>
+                </tr>
+                <tr class="profile__table__row">
+                  <th class="profile__table__head">Twitter</th>
+                  <td class="profile__table__data"><a href="https://twitter.com/range_555" target="_blank"
+                      rel="noopener noreferrer">range-555</a>
+                  </td>
+                </tr>
+                <tr class="profile__table__row">
+                  <th class="profile__table__head">Qiita</th>
+                  <td class="profile__table__data"><a href="https://qiita.com/range_555" target="_blank"
+                      rel="noopener noreferrer">range-555</a>
+                  </td>
+                </tr>
+              </table>
+              <span class="profile__text">こんにちは、レンジと申します。<br>
+                大学・大学院では計量経済学の領域で研究をしていました。卒業後はSIer企業に就職しましたが、その後プログラミングの楽しさに触れ、技術の世界に興味を持ちました。<br>
+                現在はフロントエンド・サーバーサイドの技術を独学にて勉強中です。
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skill email-pattern" id="skill">
+        <div class="skill__inner">
+          <div class="skill__title section-title section-title__with-padding">
+            <h2 class="skill__title__text">
+              <i class="far fa-file-alt"></i>
+              SKILL
+            </h2>
+          </div>
+          <div class="skill__content-box language">
+            <div class="skill__content-box__title">言語</div>
+            <p class="skill__content__row">
+              サーバーサイド
+              <span class="skill__content skill__content__language scrollAnimation slideRight">Ruby on Rails</span>
+              <span class="skill__content skill__content__language scrollAnimation slideRight">Django</span>
+            </p>
+            <p class="skill__content__row">フロントエンド：
+              <span class="skill__content skill__content__language scrollAnimation slideRight">HTML</span>
+              <span class="skill__content skill__content__language scrollAnimation slideRight">CSS</span>
+              <span class="skill__content skill__content__language scrollAnimation slideRight">jQuery</span>
+            </p>
+            <p class="skill__content__row">データ分析：
+              <span class="skill__content skill__content__language scrollAnimation slideRight">Python</span>
+              <span class="skill__content skill__content__language scrollAnimation slideRight">R</span>
+            </p>
+            <p class="skill__content__row">other：
+              <span class="skill__content skill__content__language scrollAnimation slideRight">C++</span>
+            </p>
+          </div>
+
+          <div class="skill__content-box qualification">
+            <div class="skill__content-box__title">資格ほか</div>
+            <p class="skill__content__row">
+              <span class="skill__content skill__content__qualification scrollAnimation slideRight">基本情報技術者試験</span>
+            </p>
+            <p class="skill__content__row">
+              <span class="skill__content skill__content__qualification scrollAnimation slideRight">統計検定　準一級</span>
+            </p>
+            <p class="skill__content__row">
+              <span class="skill__content skill__content__qualification scrollAnimation slideRight">アルゴリズム実技検定　中級</span>
+            </p>
+            <p class="skill__content__row">
+              <span class="skill__content skill__content__qualification scrollAnimation slideRight">AtCoder　Highest:1094</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="works blue-snow" id="works">
+        <div class="works__inner">
+          <div class="works__title section-title section-title__with-padding">
+            <h2 class="works__title__text">
+              <i class="fas fa-folder-open"></i>
+              WORKS
+            </h2>
+          </div>
+          <div class="works__cards-container">
+            <ul class="works__cards">
+              <li class="works__card portfolio-site">
+                <a class="works__card__link modal0__link portfolio-site__link" href="" data-target="modal0">
+                  <img class="works__card__img" src="material/top.jpg">
+                </a>
+                <div class="works__card__explain">
+                  <p>ポートフォリオサイト</p>
+                </div>
+              </li>
+              <li class="works__card scraping">
+                <a class="works__card__link modal1__link scraping__link" href="" data-target="modal1">
+                  <img class="works__card__img" src="material/recoani.png">
+                </a>
+                <div class="works__card__explain">
+                  <p>自作アプリ recoani</p>
+                </div>
+              </li>
+              <li class="works__card scraping">
+                <a class="works__card__link modal2__link scraping__link" href="" data-target="modal2">
+                  <img class="works__card__img" src="material/scraping.png">
+                </a>
+                <div class="works__card__explain">
+                  <p>スクレイピング</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="modal" id="modal0">
+            <div class="modal__bg modal__close"></div>
+            <div class="modal__content">
+              <div class="modal__skill-and-img">
+                <div class="modal__skill">
+                  <span class="modal__skill__content">
+                    ーー使用技術ーー<br>
+                    HTML,CSS(SaSS),jQuery,Git
+                    <br><br>
+                    ーーlinkーー
+                    <br>
+                    <a href="https://github.com/range-555/range_portfolio_site" target="_blank"
+                      rel="noopener noreferrer">github</a>
+                  </span>
+                </div>
+                <div class="modal__main-image">
+                  <img src="material/top.jpg">
+                </div>
+              </div>
+              <div class="modal__description__wrapper">
+                <span class="modal__description">
+                  こちらのポートフォリオサイトです。<br>
+                  HTML,CSS,jQueryを用いて、テンプレートを使わずに1から実装することで、基礎的なフロントエンド技術の理解を深めることができました。
+                  今回はシンプルで素朴な印象を与えられるようなデザインを心がけましたが、今後はよりデザインの幅を広げていきたいと考えています。<br>
+                  <br>
+                </span>
+              </div>
+              <a class="modal__close" href="">閉じる</a>
+            </div>
+          </div>
+
+          <div class="modal" id="modal1">
+            <div class="modal__bg modal__close"></div>
+            <div class="modal__content">
+              <div class="modal__skill-and-img">
+                <div class="modal__skill">
+                  <span class="modal__skill__content">
+                    ーー使用技術ーー<br>
+                    Python(Django),AWS,GCP,Docker
+                    <br><br>
+                    ーーlinkーー
+                    <br>
+                    <a href="https://recoani.net" target="_blank"
+                      rel="noopener noreferrer">recoani.net</a><br>
+                    <a href="https://github.com/range-555/recoani" target="_blank"
+                      rel="noopener noreferrer">github</a>
+                  </span>
+                </div>
+                <div class="modal__main-image">
+                  <img src="material/recoani2.png">
+                </div>
+              </div>
+              <div class="modal__description__wrapper">
+                <span class="modal__description">
+                  入力されたアニメタイトルを元に、あらすじが類似するアニメタイトルを出力するアプリです。<br>
+                  アニメ好きであり、またレコメンドシステムに興味があったので作成しました。<br>
+                  Django、フロントエンド、AWS・GCPなどサーバー、Docker・docker-compose、nginxなどの幅広い知識を習得することができました。<br>
+                  <br>
+                </span>
+              </div>
+              <a class="modal__close" href="">閉じる</a>
+            </div>
+          </div>
+        </div>
+
+
+          <div class="modal" id="modal2">
+            <div class="modal__bg modal__close"></div>
+            <div class="modal__content">
+              <div class="modal__skill-and-img">
+                <div class="modal__skill">
+                  <span class="modal__skill__content">
+                    ーー使用技術ーー<br>
+                    Python(bs4,MeCab,pandas等)
+                    <br><br>
+                    ーーlinkーー
+                    <br>
+                    <a href="https://qiita.com/range_555/items/acd94def2240d7060ec0" target="_blank"
+                    rel="noopener noreferrer">Qiita</a><br>
+                    <a href="https://github.com/range-555/job_scraping" target="_blank"
+                      rel="noopener noreferrer">github</a>
+                  </span>
+                </div>
+                <div class="modal__main-image">
+                  <img src="material/scraping.png">
+                </div>
+              </div>
+              <div class="modal__description__wrapper">
+                <span class="modal__description">
+                  求人サイトからエンジニアに必要なスキルをスクレイピングして、単語の頻度分析を行いました。<br>
+                  こちらは就職活動に向けて情報を入手したいというモチベーションによるものです。<br>
+                  pyenv,venv,pipによるPythonの環境構築を始め、BeautifulSoup4・MeCab・Pandas等のパッケージに関する理解まで様々な技術を学ぶことができました。<br>
+                  また入手したデータから、今後エンジニアとして学ぶべき領域を知ることができたため、有意義な分析であったと思います。
+                  <br>
+                  <br>
+                </span>
+              </div>
+              <a class="modal__close" href="">閉じる</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact email-pattern" id="contact">
+        <div class="contact__inner">
+          <div class="contact__title section-title section-title__with-padding">
+            <h2 class="contact__title__text">
+              <i class="far fa-address-book"></i>
+              CONTACT
+            </h2>
+            <p class="contact__text">
+              なにかコメントなどございましたら、下記ＳＮＳからご連絡ください。
+            </p>
+            <div class="contact__content__wrapper">
+              <div class="contact__content twitter">
+                <a class="contact__content__link" href="https://twitter.com/range_555" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+                <span>twitter</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <h2 class="footer__text">Thank you for visiting!</h2>
+      </div>
+    </footer>
+  </body>
+
+</html>
